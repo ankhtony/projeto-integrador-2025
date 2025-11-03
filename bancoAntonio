@@ -1,4 +1,4 @@
-arquivo Modelo
+#arquivo Modelo
 
 from sqlalchemy import Column, Integer, String, Date, Time, Text, ForeignKey, create_engine
 
@@ -47,7 +47,7 @@ class Consultas(Base):
     Medicos = relationship("Medicos", back_populates="Consultas")
 
 -------------------------------------------------------------------------------------
-arquivo que Cria Tabelas
+#arquivo que Cria Tabelas
 
 import os
 from sqlalchemy import create_engine, text
